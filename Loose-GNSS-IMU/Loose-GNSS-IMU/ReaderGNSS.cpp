@@ -60,7 +60,7 @@ void ReaderGNSS::readEpoch(ifstream& infile) {
 		_GNSSdata.CovPxyz(2, 0) = stod(words[6]); _GNSSdata.CovPxyz(2, 1) = stod(words[8]); _GNSSdata.CovPxyz(2, 2) = stod(words[9]);
 
 		_GNSSdata.CovVxyz(0, 0) = stod(words[13]); _GNSSdata.CovVxyz(0, 1) = stod(words[14]); _GNSSdata.CovVxyz(0, 2) = stod(words[15]);
-		_GNSSdata.CovVxyz(1, 0) = stod(words[14]); _GNSSdata.CovVxyz(1, 1) = stod(words[16]); _GNSSdata.CovVxyz(1, 2) = stod(words[15]);
+		_GNSSdata.CovVxyz(1, 0) = stod(words[14]); _GNSSdata.CovVxyz(1, 1) = stod(words[16]); _GNSSdata.CovVxyz(1, 2) = stod(words[17]);
 		_GNSSdata.CovVxyz(2, 0) = stod(words[15]); _GNSSdata.CovVxyz(2, 1) = stod(words[17]); _GNSSdata.CovVxyz(2, 2) = stod(words[18]);
 
 		_GNSSdata.CovPVxyz(0, 0) = stod(words[19]); _GNSSdata.CovPVxyz(1, 0) = stod(words[20]); _GNSSdata.CovPVxyz(2, 0) = stod(words[21]);
